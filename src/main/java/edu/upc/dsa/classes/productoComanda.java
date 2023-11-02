@@ -4,6 +4,7 @@ public class productoComanda {
     Producto producto;
     int cant;
 
+    public productoComanda(){}
     public productoComanda(Producto producto, int cant) {
         this.producto = producto;
         this.cant = cant;

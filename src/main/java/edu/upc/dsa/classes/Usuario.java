@@ -12,6 +12,7 @@ public class Usuario {
     String contra;
     private HashMap<String, Comanda> comandas;
 
+    public Usuario(){}
     public Usuario(String mail, String nombre, String contra) {
         this.setId(idGenerator.getId());
         this.setMail(mail);

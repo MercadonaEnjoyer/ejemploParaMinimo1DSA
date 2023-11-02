@@ -9,6 +9,7 @@ public class Producto{
     String nombre;
     int n;
 
+    public Producto(){}
     public Producto(int precio, String nombre) {
         this.setId(idGenerator.getId());
         this.setPrecio(precio);
